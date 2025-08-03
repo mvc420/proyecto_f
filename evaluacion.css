@@ -1,0 +1,96 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #e6ecf0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  background: #ffffff;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #34495e;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #1f6391;
+}
+
+#resultado {
+  margin-top: 30px;
+  background: #f0f9f2;
+  border: 1px solid #b2dfdb;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  color: #2e7d32;
+}
+/* Barra de navegación horizontal estilizada */
+.navbar {
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* gradiente moderno */
+  padding: 15px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  color: gray;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-link {
+  color: gray !important;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
